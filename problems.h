@@ -9,7 +9,7 @@ void delete11(vector<int> &v){
 void insertMany(vector<int> &v, int x, int y) {
     int md;
     for (int i = 0; i < y; ++i) {
-        md = (v.size()%2==0) ? (v.size()/2) : (v.size()/2)+1;
+        md = ((v.size()%2==0) ? (v.size()/2) : (v.size()/2)+1);
         v.insert(v.begin()+md, x);
     }
 }
