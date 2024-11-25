@@ -1,4 +1,5 @@
 #include <vector>
+#include <algorithm>
 using namespace std;
 
 void delete11(vector<int> &v){    
